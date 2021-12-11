@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>RegEx</title>
+</head>
+<body>
+  <h1>RegEx Form Validation</h1>
+
+  <form action="">
+    <input type="text" placeholder="Username" id="username" >
+    <p>Username must be alphanumeric and contain 4-12 characters.</p>
+    <input type="text" placeholder="Email" id="email" >
+    <p>Email must be a valid address e.g. john@gmail.com</p>
+    <input type="password" placeholder="Password" id="password" >
+    <p>Password must be alphanumeric (@, _ and - are also allowed) and contain 8-20 characters.</p>
+    <input type="text" placeholder="Phone" id="phone" >
+    <p>Phone must be a valid Myanmar telephone number.</p>
+    <input type="text" placeholder="Website" id="website" >
+    <p>Must be a valid address e.g www.example.com</p>
+  </form>
+
+  <script src="validation.js"></script>
+</body>
+</html>
